@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-form {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: 4px;
+}
+
+.enter_data_from_web,
+.update_data_from_web,
+.delete_data_from_web{
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 500px;
+    margin: 2rem 0;
+
+}
+
